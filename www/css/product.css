@@ -1,0 +1,93 @@
+/* контейнер с продуктами */
+
+#product_container{		/* здесь вся ин-фа о продукте*/
+	display: table;
+}
+#product_container_title{	/* блок с названием товара*/
+	padding-left:200px;
+	padding-bottom:20px;
+}
+#product_container_title h3 {
+	margin: 10px;
+	font-style: italic;
+	color: #ff8200;
+
+}
+#product_container_image{	/* контейнер с картинкой*/
+	float:left;
+	min-height:50px;
+	width:400px;
+	padding-right:100px;
+}
+#product_container_image img{	/* ставим максимальные размеры самой картинки */
+	max-width:300px;
+}
+
+#product_container_description{  /* контейнер с описанием*/
+	float:left;
+	min-height:50px;
+	width:500px;
+}
+/*цветная таблица для товара*/
+.block_price{
+    background-color: #f9ad55;
+    height: 90px;
+    width: 400px;
+    border: 1px dashed #000000;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); /* IE 5.5+*/
+    -moz-opacity: 0.9; /* Mozilla 1.6 и ниже */
+    -khtml-opacity: 0.9; /* Konqueror 3.1, Safari 1.1 */
+    opacity: 0.9; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+
+}
+#block_price_first{
+    position: relative;
+    display: block;
+    float: left;
+
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+}
+#block_price_first span{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#block_price_second{
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 30px;
+    height: 50px;
+    width: 90px;
+}
+
+#block_price_second input{
+    float: right;
+	width: 20px;
+    margin-right: 10px;
+
+}
+
+#block_price_third{
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 50px;
+    height: 50px;
+    width: 100px;
+}
+
+#product_container_description div{		/* строки в описании */
+	margin-top:20px;
+	margin-bottom:5px;
+	font: 14px Arial;
+}
+#product_container_footer{	/*снизу полоса*/
+	min-height:40px;
+	float:left;
+	width:1000px;
+}

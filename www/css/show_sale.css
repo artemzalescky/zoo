@@ -1,0 +1,151 @@
+.show_sale_product {
+    margin: 30px auto 0 auto;
+    font-family: Arial, Helvetica;
+    font-size: small;
+}
+
+/* ------------------------------------------------- */
+
+#tabs{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#tabs li{
+    float: left;
+    margin: 0 .5em 0 0;
+}
+
+#tabs a{
+    position: relative;
+    float: left;
+
+    padding: .7em 1.5em;
+    margin-bottom: 7px;
+    border-radius:.6em .6em .6em .6em;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4DA34D;
+}
+#tabs #current a,
+#tabs #current a::after{
+    color: #fff;
+    background:#ff8200;
+}
+/* ------------------------------------------------- */
+
+#content {
+	position: relative;
+	display: table;
+	width: 1000px;
+	border: solid 1px #4DA34D;
+	border-radius: 15px;
+	background: #fff;
+}
+
+
+/* ------------------------------------------------- */
+
+
+
+
+
+/* --------------Карусель новостей----------------------------- */
+.News_title {
+    margin-left: 50px;
+	margin-top: 25px;
+    padding-top: 5px;
+    width: 150px;
+    color: #ff8200;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.carousel {
+    position: relative;
+    margin: 30px auto;
+	margin-top: 0;
+    width: 960px;
+    height: 260px;
+    border: 1px solid #4DA34D;
+    border-radius: 15px;
+}
+.news_block{
+    width: 215px;
+    height: 190px;
+    margin:10px 10px 10px 10px;
+    display: block; 				/* если не поставить block, в ряде браузеров будет inline -> лишнее пространтсво вокруг элементов */
+}
+.news_block a{
+    text-decoration: none;
+
+    font-family: Arial;
+    color: #4DA34D;
+    font-size: 14px;
+    font-weight: bold;
+
+    position: relative;
+    top:15px;
+
+}
+.news_block div{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 3px;
+    overflow: hidden;
+    background: url("/images/main/cat_proba.png")  left top no-repeat;
+}
+.news_block p{
+    text-align: left;
+    font-family: 'ArialRegular';
+    color: #464646;
+    font-size: 16px;
+    padding: 16px 10px 0px 19px;
+    line-height: 1.2;
+}
+.carousel .arrow {
+    position: absolute;
+    top: 57px;
+    padding: 3px 8px 8px 9px;
+    background: #ddd;
+    border-radius: 250px;
+    font-size: 30px;
+    color: #444;
+    text-decoration: none;
+}
+
+.carousel .arrow:hover {
+    background: #ccc;
+}
+.carousel .left-arrow {
+    left: 7px;
+    top:210px;
+}
+.carousel .right-arrow {
+    right: 7px;
+    top:210px;
+}
+.gallery {
+    width: 940px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.gallery ul {
+    height: 150px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery ul li {
+    float: left;
+}

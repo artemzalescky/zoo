@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+/* общие */
+.admin_link {
+	text-decoration: none;
+	color: #333;
+}
+.admin_link:hover {
+	color: #e00;
+	text-decoration: underline;
+}
+
+
+
+/* дерево каталогов */
+.tree_submenu .icon {
+	background: url(/images/sprite.gif);
+	height: 16px;
+	width: 16px;
+	float: left;
+	cursor: pointer;
+	background-position: 0 0;
+}
+.tree_submenu ul {
+	margin: 0 0 0 7px;
+	padding-left: 25px;
+	border-left: 1px dotted #ccc;
+	list-style-type: none;
+}
+.closed_submenu .icon {
+	background-position: 0 -17px;
+}
+.closed_submenu ul {
+	display: none;
+}
+.tree_submenu a,
+.tree_submenu .title {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+.tree_submenu a:hover,
+.tree_submenu .title:hover {
+	color: #e00;
+	text-decoration: underline;
+}
+
+
+/* добавление нового подкаталога */
+#add_subcatalog_table td {
+	padding: 5px 10px;
+	color: #333;
+}
+#add_subcatalog_table input[type="text"] {
+	padding: 5px 10px;
+	width: 250px;
+	color: #333;
+}
+#add_subcatalog_add_button {
+	width: 200px;
+	height: 30px;
+	cursor: pointer;
+}
+#add_subcatalog_cancel_button {
+	width: 150px;
+	height: 30px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+/* создание новой таблицы продуктов */
+#add_product_new_table td {
+	padding: 5px 10px;
+	color: #333;
+}
+#add_product_new_table input[type="text"] {
+	padding: 5px 10px;
+	width: 250px;
+	color: #333;
+}
+#add_product_new_table select {
+	padding: 5px 10px;
+	color: #333;
+	cursor: pointer;
+}
+#add_product_new_table input[type="submit"] {
+	width: 190px;
+	height: 30px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+/* удаление каталога */
+.delete_catalog_button {
+	padding: 5px 20px;
+	margin: 0 10px;
+	color: #333;
+	cursor: pointer;
+}
+
+
+/*CSS таблица изменения продукта*/
+#change_product_table{
+    margin:30px auto;
+    min-width:700px;
+    min-height: 500px;
+    font-size:16px;
+    -moz-box-shadow:1px 1px 7px #ccc;
+    -webkit-box-shadow:1px 1px 7px #ccc;
+    box-shadow:1px 1px 7px #ccc;
+
+}
+
+#change_product_table td{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 5px;
+    padding-left: 25px;
+
+}
+#change_product_table input[type='text'], #change_product_table textarea{
+     border: solid 1px #E5E5E5;
+     margin: 5px 30px 0px 30px;
+     padding: 5px;
+     display:block;
+     font-size:16px;
+     width:76%;
+     background: #FFFFFF;
+     -moz-box-shadow: 0px 0px 8px #f0f0f0;
+     -webkit-box-shadow: 0px 0px 8px #f0f0f0;
+     box-shadow: 0px 0px 8px #f0f0f0;
+ }
+
+#button_send_product{
+    float: right;
+    margin-top:20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+}
+
+/*Добавление нового товара*/
+#new_product {
+	text-decoration: none;
+	margin: 20px 20px 0 0;
+	margin-bottom: 20px;
+	padding: 10px 8px;
+	display: block;
+	text-align: center;
+	width: 220px;
+	cursor: pointer;
+	color: #fff;
+	font: bold 1.1em arial, helvetica;
+	background-color: #7BA800;
+	border-radius: 12px;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, .3), 0 1px 0 rgba(255, 255, 255, .5) inset;
+	
+	transition: background-color .2s;
+}
+
+#new_product:hover{
+    background-color: #ff8200;
+}
+#new_product a{
+    text-decoration: none;
+}
+
+/*обавление нового товара*/
+#add_new_product_table td {
+    padding: 5px 10px;
+    color: #333;
+}
+#add_new_product_table input[type="text"] {
+    padding: 5px 10px;
+    width: 250px;
+    color: #333;
+}
+#add_new_product_table_add_button {
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+#add_new_product_table_cancel_button {
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}

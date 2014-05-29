@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* большая корзина*/
+#cart{
+	margin-top: 20px;
+}
+#cart #cart_title{
+	margin-bottom:10px; 
+	margin-left: 12px;
+	font: bold 20px Arial, Helvetica;
+	font-style: italic;
+	color: #678C01;
+}
+#cart_table{	/* аблица товаров */
+	margin-bottom:30px;
+	width:1000px;
+}
+#cart_table .simple_row:hover td{
+	background-color:#ddd;
+}
+#cart_table th {
+	padding:10px 15px;
+	border-radius: 12px;
+	text-align:center;
+	background-color: #7BA800;
+	font:  15px Arial, Helvetica;
+	font-weight: bold;
+	color: #fff;
+}
+#cart_table td{
+	padding:10px 15px;
+	text-align:center;
+	border-radius: 12px;
+	font: 15px Arial, Helvetica;
+	background-color: #eee;
+	color: #E84900;
+}
+#cart_table a{
+	text-decoration:none;
+	color: #444;
+}
+#cart_table td .count{
+	width:40px;
+	border-radius:3px; 
+	text-align:center; 
+}
+
+				/* кнопки под корзиной */
+#cart .cart_button{
+	float:left;
+	background-color:#f5f5f5;
+	
+	cursor:pointer;
+	width:180px;
+	padding:10px;
+	margin:0 20px;
+	border-radius: 15px;
+	/*box-shadow: 0 0 10px 1px #7BA800;*/
+	border: 3px solid #7BA800;
+	
+	text-align:center;
+	text-decoration:none;
+	font:  17px Arial, Helvetica;
+	color: #333;
+	
+	transition:background-color 0.5s , color 0.3s , width 0.3s , box-shadow 0.3s;
+	-webkit-transition:background-color 0.5s , color 0.3s , width 0.3s , box-shadow 0.3s;
+}
+#cart .cart_selected{
+	float:left;
+	background-color:#f5f5f5;
+	cursor:pointer;
+	width: 180px;
+	padding:10px;
+	margin:0 20px;
+	border-radius: 15px;
+	/*box-shadow: 0 0 10px 1px #ff8200;*/
+	border: 3px solid #ff8200;
+	
+	text-align:center;
+	text-decoration:none;
+	font:  17px Arial, Helvetica;
+	color: #333;
+	
+	transition:background-color 0.5s , box-shadow 0.3s;
+	-webkit-transition:background-color 0.5s , box-shadow 0.3s;
+}
+#cart .cart_button:hover{
+	background-color:#f9f9f9;
+	box-shadow: 0 0 20px 5px #7BA800;
+}
+#cart .cart_selected:hover {
+	background-color:#f9f9f9;
+	box-shadow: 0 0 20px 5px #ff8200;
+}
+
+
+
+ 
+/* ============== форма оформления заказа ============= */
+
+#cart2_table {	/* аблица товаров */
+	padding-bottom: 30px;
+	margin-left: 45px;
+}
+#cart2_table td {
+	padding:10px 15px;
+	border-radius: 7px;
+	text-align:center;
+	background-color: #eee;
+	border: solid 1px #ddd;
+	font:  15px Arial, Helvetica;
+	font-weight: bold;
+	color: #555;
+}
+#cart2_table input[type="text"] {
+	width: 300px;
+	padding: 3px 10px;
+}
+.cart2_error {
+	width: 400px;
+	background-color: #fff !important;
+	border: none !important;
+	text-align: left !important;
+	color: #e00 !important;
+}
